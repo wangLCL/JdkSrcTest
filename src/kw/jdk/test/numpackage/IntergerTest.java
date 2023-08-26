@@ -1,7 +1,10 @@
-package kw.jdk.test;
+package kw.jdk.test.numpackage;
 
 import org.junit.Test;
 
+/**
+ * 4个字节
+ */
 public class IntergerTest {
 
     /**
