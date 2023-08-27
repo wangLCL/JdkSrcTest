@@ -1,6 +1,7 @@
 package kw.jdk.test.bytestream;
 
 import org.junit.Test;
+import sun.nio.ch.SelChImpl;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -14,6 +15,7 @@ import java.nio.channels.FileChannel;
 public class FileInputStreamTest {
     @Test
     public void test01(){
+        SelChImpl
         try {
             FileInputStream fileInputStream = new FileInputStream(".gitignore");
             System.out.println(fileInputStream.read());
