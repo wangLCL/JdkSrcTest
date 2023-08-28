@@ -15,7 +15,6 @@ import java.nio.channels.FileChannel;
 public class FileInputStreamTest {
     @Test
     public void test01(){
-        SelChImpl
         try {
             FileInputStream fileInputStream = new FileInputStream(".gitignore");
             System.out.println(fileInputStream.read());
