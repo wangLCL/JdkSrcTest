@@ -31,6 +31,8 @@ public class RandomTest {
             System.out.println(random.nextDouble());
             System.out.println(random.nextDouble());
         }
+
+
     }
 
     @Test

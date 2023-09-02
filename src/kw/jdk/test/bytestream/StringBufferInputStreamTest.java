@@ -21,5 +21,16 @@ public class StringBufferInputStreamTest {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+
+        int b;
+        while ((b = inputStream.read()) != -1) {
+            System.out.println(b);
+        }
+    }
+
+    @Test
+    public void stringCharAtTest(){
+        String str = "xxx";
+        System.out.println(str.charAt(2));
     }
 }
