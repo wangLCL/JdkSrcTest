@@ -47,4 +47,12 @@ public class RandomTest {
         }
 
     }
+
+    @Test
+    public void forTest(){
+//        for (int rnd = 1, n = Math.min(len - i, Integer.SIZE/Byte.SIZE);
+        Random random = new Random();
+        byte[] bytes = new byte[10];
+        random.nextBytes(bytes);
+    }
 }
